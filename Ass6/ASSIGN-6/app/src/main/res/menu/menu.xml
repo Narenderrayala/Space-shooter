@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/showall"
+        android:title="Show All Employees"></item>
+    <item android:id="@+id/milton"
+        android:title="Ms. Milton Questions">
+        <menu>
+            <item android:id="@+id/milton1" android:title="1.employees who like chicken"></item>
+            <item android:id="@+id/milton2" android:title="2.employees who like goat"></item>
+            <item android:id="@+id/milton3" android:title="3.employees who make less than 60K"></item>
+            <item android:id="@+id/milton4" android:title="4.employees who are younger than 38"></item>
+            <item android:id="@+id/milton5" android:title="5.employees who like blue that are female"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/grunt"
+        android:title="Mr. Grunt Questions">
+        <menu>
+            <item android:id="@+id/grunt1" android:title="1.employees who make more than 70K"></item>
+            <item android:id="@+id/grunt2" android:title="2.employees who are older than 40 that have poultry as their diet"></item>
+            <item android:id="@+id/grunt3" android:title="3.employees who like turkey as their first food and that are under 40"></item>
+            <item android:id="@+id/grunt4" android:title="4.employees who are male that like the color red and are red meat lovers"></item>
+            <item android:id="@+id/grunt5" android:title="5.employees who are female that are vegetarians that like tofu for their first or second favorite food"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/both"
+        android:title="Questions By Both">
+        <menu>
+            <item android:id="@+id/both1" android:title="1.employees who their last name starts with M or O and favorite color is blue"></item>
+            <item android:id="@+id/both2" android:title="2.employees who are female that eat red meat that like yellow then get a list of employees that are male that eat poultry that likes blue. Then from those two lists, return a list that is over 30"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/delete"
+        android:title="Delete database"></item>
+</menu>
